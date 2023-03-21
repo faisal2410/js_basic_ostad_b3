@@ -32,4 +32,33 @@ var userAddress = "123 Main St.";
 Ref :
 https://www.w3schools.com/js/js_reserved.asp
 
-*/ 
+*/
+
+
+// 1. Which of the following variable names is NOT a valid variable name in JavaScript?
+// A. myVar
+// B. $price
+// C. 123abc
+// D. camelCase
+// Answer: C. 123abc
+
+// 2. Which of the following is a valid way to declare a variable in JavaScript?
+// A. variable name = value;
+// B. var name = value;
+// C. name = value;
+// D. let name = value;
+// Answer: D. let name = value;
+
+// 3. Which of the following is a recommended naming convention for variables in JavaScript?
+// A. snake_case
+// B. camelCase
+// C. PascalCase
+// D. kebab-case
+// Answer: B. camelCase
+
+// 4. Which of the following variable names is more descriptive and follows the naming convention?
+// A. myCar
+// B. car
+// C. Mycar
+// D. my_car
+// Answer: A. myCar

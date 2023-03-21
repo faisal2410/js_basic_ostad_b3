@@ -60,3 +60,23 @@ const y = 5;
 const z = (x + y) * 2; // 30
 
 // In this example, the parentheses are used to ensure that the addition operation is performed before the multiplication operation.
+
+
+function mathOperators(num1, num2) {
+    let sum = num1 + num2;
+    let difference = num1 - num2;
+    let product = num1 * num2;
+    let quotient = num1 / num2;
+
+    console.log(`Sum: ${sum}`);
+    console.log(`Difference: ${difference}`);
+    console.log(`Product: ${product}`);
+    console.log(`Quotient: ${quotient}`);
+}
+
+mathOperators(10, 5);
+// Output:
+// Sum: 15
+// Difference: 5
+// Product: 50
+// Quotient: 2

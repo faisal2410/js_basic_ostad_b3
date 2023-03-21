@@ -64,3 +64,29 @@ console.log(5 <= 3); // false
 
 
 
+function compareNumbers(num1, num2) {
+  let result = "";
+
+  if (num1 > num2) {
+    result = `${num1} is greater than ${num2}`;
+  } else if (num1 < num2) {
+    result = `${num1} is less than ${num2}`;
+  } else {
+    result = `${num1} is equal to ${num2}`;
+  }
+
+  return result;
+}
+
+console.log(compareNumbers(5, 10));
+// Output: "5 is less than 10"
+
+console.log(compareNumbers(10, 5));
+// Output: "10 is greater than 5"
+
+console.log(compareNumbers(5, 5));
+// Output: "5 is equal to 5"
+
+
+
+

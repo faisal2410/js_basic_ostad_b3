@@ -29,3 +29,28 @@ console.log(false && (5 / 0)); // false
 console.log(true || (5 / 0)); // true
 
 // It's worth noting that the logical operators in JavaScript do not always return a boolean value. They may also return the value of one of their operands, depending on the context. For example, the AND (&&) operator returns the first value if it is falsy, otherwise it returns the second value. The OR (||) operator returns the first value if it is truthy, otherwise it returns the second value. This behavior is sometimes used for short-circuiting or for assigning default values to variables.
+
+
+
+function checkBooleans(bool1, bool2) {
+    let result = "";
+
+    if (bool1 && bool2) {
+        result = "Both values are true";
+    } else if (bool1 || bool2) {
+        result = "At least one value is true";
+    } else {
+        result = "Both values are false";
+    }
+
+    return result;
+}
+
+console.log(checkBooleans(true, true));
+// Output: "Both values are true"
+
+console.log(checkBooleans(true, false));
+// Output: "At least one value is true"
+
+console.log(checkBooleans(false, false));
+// Output: "Both values are false"

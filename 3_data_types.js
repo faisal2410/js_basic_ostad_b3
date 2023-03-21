@@ -35,3 +35,37 @@ var symbol1 = Symbol("description");
 var symbol2 = Symbol("description");
 
 // These are the main data types in JavaScript.Understanding these data types is important for writing effective JavaScript code.
+
+
+
+// 1. What is the data type of x in the following code?
+var x = 5;
+// A. string
+// B. number
+// C. boolean
+// D. object
+// Answer: B. number
+
+// 2. What is the data type of y in the following code?
+var y = "Hello";
+// A. string
+// B. number
+// C. boolean
+// D. object
+// Answer: A. string
+
+// 3. What is the data type of z in the following code?
+var z = true;
+// A. string
+// B. number
+// C. boolean
+// D. object
+// Answer: C. boolean
+
+// 4. What is the data type of w in the following code?
+var w = [1, 2, 3];
+// A. string
+// B. number
+// C. boolean
+// D. object
+// Answer: D. object

@@ -25,4 +25,43 @@ Ref :
 https://www.w3schools.com/js/js_variables.asp
 
 
-*/ 
+*/
+
+
+// 1. What is the value of x after the following code is executed?
+var x;
+console.log(x); // Output: undefined
+// A. undefined
+// B. null
+// C. 0
+// D. ""
+// Answer: A. undefined
+
+// 2. What is the value of y after the following code is executed?
+var y = 5;
+console.log(y); // Output: 5
+// A. undefined
+// B. null
+// C. 0
+// D. 5
+// Answer: D. 5
+
+// 3. What is the value of z after the following code is executed?
+var z = "Hello";
+console.log(z); // Output: "Hello"
+// A. undefined
+// B. null
+// C. 0
+// D. "Hello"
+// Answer: D. "Hello"
+
+// 4. What is the value of w after the following code is executed?
+var w = 10;
+w = w + 5;
+console.log(w); // Output: 15
+// A. 5
+// B. 10
+// C. 15
+// D. 20
+// Answer: C. 15
+
