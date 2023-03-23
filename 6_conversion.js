@@ -134,10 +134,10 @@ var num1 = "10";
 var num2 = "5";
 var bool1 = Boolean(num1);
 var bool2 = Boolean(num2);
-var str1 = String(bool1);
-var str2 = String(bool2);
-var num3 = Number(str1);
-var num4 = Number(str2);
+var str1 = String(bool1);//"true"
+var str2 = String(bool2); //"true"
+var num3 = Number(str1);//NaN
+var num4 = Number(str2);//NaN
 
 console.log(num3 + num4);
 // Options:

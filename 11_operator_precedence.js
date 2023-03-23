@@ -67,7 +67,7 @@ var x = 10 * 2 + 5 / 5 - 3;
 // B. 19
 // C. 20
 // D. 21
-// Answer: B. 19
+// Answer: B. 18
 
 // 2. What is the value of y after the following expression is evaluated?
 var y = 5 + 2 * 3 % 2 - 1;

@@ -5,6 +5,7 @@
 let firstName = "John";
 let lastName = "Doe";
 let fullName = firstName + " " + lastName;
+let fString = "My Name is " + firstName + " " + lastName;
 console.log(fullName); // Output: "John Doe"
 
 // Using the "+=" operator
