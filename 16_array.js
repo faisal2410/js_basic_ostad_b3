@@ -118,10 +118,10 @@
 //     Example:
 
 
-// const fruits = ['apple', 'banana', 'orange'];
+const fruits = ['apple', 'banana', 'orange'];
 
-// console.log(fruits.join()); // 'apple,banana,orange'
-// console.log(fruits.join('-')); // 'apple-banana-orange'
+console.log(fruits.join()); // 'apple,banana,orange'
+console.log(fruits.join('-')); // 'apple-banana-orange'
 
 // map(): This method creates a new array by applying a function to each element of an existing array.
 //     Example:
@@ -140,11 +140,11 @@
 //     Example:
 
 
-// const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 
-// const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue);
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue);
 
-// console.log(sum); // 15
+console.log(sum); // 15
 
 
 // reverse(): This method reverses the order of the elements in an array.

@@ -25,7 +25,7 @@
 
 
 
-var result = 5 + 10 * 2; // result will be 25, not 30
+var result = 5*3 + 10 * 2 ; // result will be 25, not 30
 
 
 // In this example, the multiplication operator (*) has higher precedence than the addition operator (+). So, 10 * 2 is evaluated first, resulting in 20. Then, the result of that operation is added to 5, resulting in 25.
@@ -79,7 +79,7 @@ var y = 5 + 2 * 3 % 2 - 1;
 
 // 3. What is the value of z after the following expression is evaluated?
 var a = 10;
-var z = a++ * 2 - a-- * 3;
+var z = a++ * 2 - a-- * 3;  //11*2-9*3
 // A. -10
 // B. -5
 // C. 0
