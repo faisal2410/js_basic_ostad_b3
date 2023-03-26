@@ -264,9 +264,9 @@ let occupation = "student";
 // console.log(fruits.join('*')); // 'apple-banana-orange'
 
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
-const sum = numbers.reduce((accumulator, currentValue) => accumulator * currentValue,1);
+// const sum = numbers.reduce((accumulator, currentValue) => accumulator * currentValue,1);
 
-console.log(sum); // 15
+// console.log(sum); // 15
 
