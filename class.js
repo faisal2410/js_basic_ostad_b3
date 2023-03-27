@@ -40,7 +40,7 @@ fdsklfjsd
 
 */
 
-let y = 5;
+// let y = 5;
 // y--;
 // y *= 2;
 // y /= 2;
@@ -269,4 +269,94 @@ let occupation = "student";
 // const sum = numbers.reduce((accumulator, currentValue) => accumulator * currentValue,1);
 
 // console.log(sum); // 15
+
+
+// y = 5 + 2 * 3 % 2 - 1
+// console.log(y)
+
+// let students = ["Faisal", "Talha", "Mashrufa"];
+
+// // students[2] = "Raihana"
+// // students.push("Afnan","habib");
+// students.pop()
+// console.log(students);
+
+// const fruits = ['apple', 'banana', 'orange'];
+
+// // console.log(fruits.join()); // 'apple,banana,orange'
+// // console.log(fruits.join('-')); // 'apple-banana-orange'
+
+// console.log(fruits.join())
+
+// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// const myBest = fruits.slice(-3, -1);
+// console.log(myBest);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const filteredNumbers = numbers.filter(number => number > 3);
+// console.log(filteredNumbers); // Output: [4, 5]
+
+// function greetings() {
+//     console.log("Hello world")
+// }
+
+// greetings(); //call, invoke, execute
+
+// let x = 5;
+// let y = 10;
+
+// function sum(num1, num2 = 8, num3 = 5) {
+
+//     return num1 + num2 + num3
+
+
+// }
+
+// console.log(sum(5,10,20))
+
+// Arrow function
+// const sum = (x, y) => {
+//     return x + y;
+// }
+// console.log(sum(2, 3))
+
+// const sum = x => x + 2;
+// const sum = (x) => x + 2;
+
+
+
+// const numbers = [1, 2, 3, 4, 5];
+// const filteredNumbers = numbers.filter(n => n %2!==0);
+// console.log(filteredNumbers); // Output: [4, 5]
+
+
+// const numbers = [5, 2, 3, 4, 5];
+// const foundNumber = numbers.find(number => number > 0);
+// console.log(foundNumber); // Output: 4
+
+
+// const numbers = [1, 2, 3, 4, 5];
+
+// const test=(n)=>n**2
+
+// const doubled = numbers.map(number => number ** 2);
+// const doubled = numbers.map(test);
+
+// console.log(doubled); // [2, 4, 6, 8, 10]
+
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.forEach(number => console.log(number));
+
+// Output: 1
+//         2
+//         3
+//         4
+//         5
+
+
+
+
+
+
+
 

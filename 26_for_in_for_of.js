@@ -1,4 +1,4 @@
-// for-in loop:
+// 👀for-in loop:
 // The for-in loop is used to iterate over the properties of an object.It loops through all the enumerable properties of an object and executes the code block for each property.
 
 //     Here's an example:
@@ -17,7 +17,7 @@
 
 // In this example, the for-in loop is used to iterate over the properties of the person object.The loop variable property represents the name of each property, and person[property] represents the value of each property.The code block inside the loop logs each property name and value to the console.
 
-//     for - of loop:
+// 👀    for - of loop:
 // The for-of loop is used to iterate over iterable objects such as arrays, strings, and sets.It loops through each element of the iterable object and executes the code block for each element.
 
 //     Here's an example:
